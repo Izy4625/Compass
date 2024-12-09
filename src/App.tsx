@@ -1,4 +1,4 @@
-
+import PhoneCompass from './components/CompassCompo'
 import './App.css'
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
+    <PhoneCompass/>
     </>
   )
 }

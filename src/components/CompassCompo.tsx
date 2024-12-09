@@ -45,6 +45,7 @@ const PhoneCompass: React.FC = () => {
   return (
     <div>
       <h1>Compass Heading: {heading !== null ? heading : 'Waiting for sensor...'}</h1>
+      
     </div>
   );
 };

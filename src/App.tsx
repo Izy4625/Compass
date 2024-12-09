@@ -1,14 +1,13 @@
-import PhoneCompass from './components/CompassCompo'
-import './App.css'
+import { HashRouter as Router } from 'react-router-dom';
+import PhoneCompass from './components/CompassCompo';
 
 function App() {
-
-
   return (
-    <>
-    <PhoneCompass/>
-    </>
-  )
+    <Router>
+      <PhoneCompass/>
+    </Router>
+  );
 }
 
-export default App
+export default App;
+
